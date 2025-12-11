@@ -173,16 +173,20 @@ ul {
 }
 
 .theme-toggle {
-    background: none;
-    border: none;
-    color: var(--heading-color);
+    background: transparent;
+    border: 1px solid var(--accent-primary);
+    color: var(--accent-primary);
     cursor: pointer;
     font-size: 1.2rem;
-    transition: var(--transition);
     padding: 0.5rem;
-    /* Add padding for easier clicking */
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
 }
 
 .theme-toggle:hover {
@@ -550,6 +554,66 @@ ul {
     color: var(--accent-secondary);
     font-weight: 600;
     margin-bottom: 0.5rem;
+}
+
+/* Certifications Section */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cert-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-primary);
+}
+
+.cert-icon {
+    font-size: 3rem;
+    color: var(--accent-primary);
+    margin-bottom: 0.5rem;
+}
+
+.cert-details h3 {
+    color: var(--heading-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.cert-issuer {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-family: var(--font-mono);
+    margin-bottom: 1rem;
+}
+
+.btn-text {
+    color: var(--accent-primary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: gap 0.3s ease;
+}
+
+.btn-text:hover {
+    gap: 0.8rem;
 }
 
 /* Contact Updates */
