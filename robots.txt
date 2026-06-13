@@ -1,0 +1,29 @@
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+Disallow:
+
+# Explicitly allow AI / LLM web crawlers to scan the portfolio
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://aniket.gohel.in/sitemap.xml
