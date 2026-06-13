@@ -781,3 +781,50 @@ ul {
 .delay-400 {
     transition-delay: 400ms;
 }
+
+/* Recruiter Polish & Custom Branded Icons */
+.contact-email-container {
+    margin: 1.5rem 0 2rem 0;
+}
+
+.contact-email {
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    color: var(--accent-primary);
+    text-decoration: none;
+    border-bottom: 2px dashed rgba(100, 255, 218, 0.3);
+    padding-bottom: 4px;
+    transition: var(--transition);
+}
+
+.contact-email:hover {
+    color: var(--accent-secondary);
+    border-bottom-color: var(--accent-secondary);
+}
+
+.cert-card .fa-google {
+    color: #4285F4;
+    transition: color 0.3s ease;
+}
+
+.cert-card:hover .fa-google {
+    color: #34A853;
+}
+
+.cert-card .fa-cubes {
+    color: #f58220; /* KEDA Orange */
+    transition: color 0.3s ease;
+}
+
+.cert-card:hover .fa-cubes {
+    color: #e27012;
+}
+
+.cert-card .fa-code-branch {
+    color: #f1502f; /* Git Red */
+    transition: color 0.3s ease;
+}
+
+.cert-card:hover .fa-code-branch {
+    color: #d83e20;
+}

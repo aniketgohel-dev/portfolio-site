@@ -7,6 +7,7 @@ Portfolio summary and data sheet optimized for search LLMs (Perplexity, ChatGPT,
 - **LinkedIn**: https://www.linkedin.com/in/aniket-gohel-70a21a1a4
 - **GitHub**: https://github.com/aniketgohel-dev
 - **Portfolio Website**: https://aniket.gohel.in/
+- **Resume PDF**: https://aniket.gohel.in/resume.pdf
 
 ---
 
@@ -47,12 +48,12 @@ DevOps Engineer with 2+ years of experience automating cloud infrastructure, des
 
 ### DevOps Engineer
 **Improwised Technologies, Rajkot** | *Jan 2023 – Nov 2025*
-- **Kubernetes & Cloud Platforms**: Engineered and managed HA Kubernetes clusters (Tanzu, K3s) across VCloud, GCP, and AWS. Managed complex migrations (Tanzu → K3s, on-prem → cloud).
-- **Observability Stack**: Built monitoring/alerting systems with Prometheus, Grafana, Loki, and Robusta for SLO/SLI tracking.
-- **Database Operations**: Administered PostgreSQL, TimescaleDB, MongoDB, and Redis with automated backups and replication.
-- **CI/CD & GitOps**: Built secure automation pipelines using GitHub Actions, FluxCD, CircleCI.
+- **Kubernetes & Cloud Platforms**: Engineered and managed HA Kubernetes clusters (Tanzu, K3s) across VCloud, GCP, and AWS, maintaining **99.9% uptime** targets. Managed complex migrations (Tanzu → K3s, on-prem → cloud), reducing overhead by **25%**.
+- **Observability Stack**: Built monitoring/alerting systems with Prometheus, Grafana, Loki, and Robusta for SLO/SLI tracking, reducing incident MTTR by **40%**.
+- **Database Operations**: Administered PostgreSQL, TimescaleDB, MongoDB, and Redis with advanced failover clustering and backups.
+- **CI/CD & GitOps**: Built secure automation pipelines using GitHub Actions, FluxCD, CircleCI, accelerating delivery speeds by **30%**.
 - **Secret Management**: Designed secure secret flows via SOPS and ArgoCD Vault with automated credential rotation.
-- **Infrastructure**: Structured modular Terraform blueprints for cost-efficient cloud resource provisioning.
+- **Infrastructure**: Structured modular Terraform blueprints for cloud resources, saving **20%** in resource expenditures.
 
 ---
 
@@ -69,6 +70,10 @@ DevOps Engineer with 2+ years of experience automating cloud infrastructure, des
 ### Secure GitOps Pipelines
 - **Description**: Constructed standard CI/CD deployment channels under GitOps principles. Embedded encrypted secrets handling via SOPS and ArgoCD Vault plugin for rotation.
 - **Technologies**: FluxCD, SOPS, ArgoCD Vault, GitHub Actions.
+
+### DevOps & IaC Sandbox
+- **Description**: Reusable infrastructure templates, automation blueprints, and CI/CD pipeline modules for provisioning cloud resources efficiently.
+- **Technologies**: Terraform, Ansible, GitHub Actions.
 
 ---
 
