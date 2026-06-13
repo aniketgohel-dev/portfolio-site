@@ -1,0 +1,86 @@
+# Aniket Gohel - DevOps Engineer
+
+Portfolio summary and data sheet optimized for search LLMs (Perplexity, ChatGPT, Claude) and crawlers.
+
+## Contact Information
+- **Email**: aniketgohelp@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/aniket-gohel-70a21a1a4
+- **GitHub**: https://github.com/aniketgohel-dev
+- **Portfolio Website**: https://aniket.gohel.in/
+
+---
+
+## Professional Summary
+DevOps Engineer with 2+ years of experience automating cloud infrastructure, designing GitOps pipelines, and engineering high-availability Kubernetes platforms. Specializes in building secure, resilient CI/CD systems, advanced database migrations, and full-stack observability.
+
+---
+
+## Technical Skills
+
+### Cloud & Infrastructure
+- **Providers**: Amazon Web Services (AWS), Google Cloud Platform (GCP), VCloud
+- **Infrastructure as Code (IaC)**: Terraform, Ansible
+- **Operating Systems**: Linux
+
+### Containers & Orchestration
+- **Platforms**: Kubernetes (EKS, GKE, K3s, VMware Tanzu)
+- **Tooling**: Docker, Helm, KEDA
+
+### CI/CD & GitOps
+- **Pipelines**: GitHub Actions, CircleCI
+- **GitOps Engines**: FluxCD, ArgoCD
+
+### Observability & Monitoring
+- **Monitoring Stack**: Prometheus, Grafana, Loki, Robusta
+- **Metrics**: SLO/SLI tracking, automated alerting, log aggregation
+
+### Databases & Security
+- **Databases**: PostgreSQL, TimescaleDB, MongoDB, Redis
+- **Security & Secrets**: SOPS, ArgoCD Vault Plugin, automated credential rotation
+
+### Programming Languages
+- Python, Bash
+
+---
+
+## Professional Experience
+
+### DevOps Engineer
+**Improwised Technologies, Rajkot** | *Jan 2023 – Nov 2025*
+- **Kubernetes & Cloud Platforms**: Engineered and managed HA Kubernetes clusters (Tanzu, K3s) across VCloud, GCP, and AWS. Managed complex migrations (Tanzu → K3s, on-prem → cloud).
+- **Observability Stack**: Built monitoring/alerting systems with Prometheus, Grafana, Loki, and Robusta for SLO/SLI tracking.
+- **Database Operations**: Administered PostgreSQL, TimescaleDB, MongoDB, and Redis with automated backups and replication.
+- **CI/CD & GitOps**: Built secure automation pipelines using GitHub Actions, FluxCD, CircleCI.
+- **Secret Management**: Designed secure secret flows via SOPS and ArgoCD Vault with automated credential rotation.
+- **Infrastructure**: Structured modular Terraform blueprints for cost-efficient cloud resource provisioning.
+
+---
+
+## Featured Projects
+
+### Kubernetes Platform Engineering
+- **Description**: Designed high-availability clusters across VCloud, GCP, and AWS. Migrated production applications from Tanzu to K3s and shifted traditional environments into cloud-native architectures.
+- **Technologies**: EKS, GKE, Tanzu, K3s, Helm, Docker.
+
+### Advanced Observability Stack
+- **Description**: Developed automated observability and alerting capabilities, integrating Prometheus, Grafana, Loki, and Robusta. Configured actionable alerting workflows for maximum application reliability and SLI/SLO tracking.
+- **Technologies**: Prometheus, Grafana, Loki, Robusta, Slack alert triggers.
+
+### Secure GitOps Pipelines
+- **Description**: Constructed standard CI/CD deployment channels under GitOps principles. Embedded encrypted secrets handling via SOPS and ArgoCD Vault plugin for rotation.
+- **Technologies**: FluxCD, SOPS, ArgoCD Vault, GitHub Actions.
+
+---
+
+## Education
+
+### Bachelor of Engineering (B.E.) in Computer Engineering
+**Government Engineering College, Rajkot**
+- Focused on software engineering, distributed networks, and real-world system integrations.
+
+---
+
+## Certifications
+- **Scaling Cloud Native Applications with KEDA** (The Linux Foundation)
+- **Deploy Kubernetes Applications on Google Cloud** (Google Cloud)
+- **LFS169: Introduction to GitOps** (The Linux Foundation)
